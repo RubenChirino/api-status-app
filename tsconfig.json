@@ -14,9 +14,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "comma-dangle": "off",
-    "@typescript-eslint/comma-dangle": ["error"]
+    "jsx": "react-jsx"
   },
   "include": ["src"]
 }

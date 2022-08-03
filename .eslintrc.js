@@ -15,6 +15,14 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
+    "space-before-function-paren": [
+      "error",
+      {
+        anonymous: "always",
+        named: "always",
+        asyncArrow: "always"
+      }
+    ],
     "comma-dangle": [
       "error",
       {
